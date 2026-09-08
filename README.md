@@ -68,7 +68,8 @@ npm run dev
 Frontend akan berjalan di: http://localhost:5173
 
 📋 Fitur Utama & Validasi
-1. Backend Microservice
+#1. Backend Microservice
+
 API Endpoints:
 
 - POST /article/ : Membuat artikel baru
@@ -91,7 +92,7 @@ Validasi Data (Pydantic):
 
 - status: Harus memilih antara publish, draft, atau thrash
 
-2. Frontend Admin Dashboard
+#2. Frontend Admin Dashboard
 - All Posts Page: Memiliki tab Published, Drafts, dan Trashed dengan aksi Edit dan Trash.
 
 - Add New Page: Formulir pembuatan artikel baru dengan tombol Publish dan Draft.
