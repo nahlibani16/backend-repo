@@ -20,7 +20,7 @@ backend-repo/
 │   │   └── main.jsx
 │   └── package.json
 ├── requirements.txt      # Dependensi Backend Python
-└── README.md
+└── README.md```
 🚀 Cara Menjalankan Backend (FastAPI)
 Masuk ke Root Folder:
 
