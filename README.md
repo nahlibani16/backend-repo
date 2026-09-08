@@ -40,9 +40,9 @@ Jalankan Application Server:
 
 Bash
 uvicorn app.main:app --reload
-Server Backend akan berjalan di: http://127.0.0.1:8000
+Server Backend akan berjalan di: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
-Dokumentasi Swagger UI Otomatis: http://127.0.0.1:8000/docs
+Dokumentasi Swagger UI Otomatis: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
 💻 Cara Menjalankan Frontend (React + Vite)
 Buka Terminal Baru & Masuk ke Folder Frontend:
