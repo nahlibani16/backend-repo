@@ -71,29 +71,29 @@ Frontend akan berjalan di: http://localhost:5173
 1. Backend Microservice
 API Endpoints:
 
-POST /article/ : Membuat artikel baru
+- POST /article/ : Membuat artikel baru
 
-GET /article/<limit>/<offset> : Menampilkan daftar artikel dengan pagination
+- GET /article/<limit>/<offset> : Menampilkan daftar artikel dengan pagination
 
-GET /article/<id> : Menampilkan detail artikel berdasarkan ID
+- GET /article/<id> : Menampilkan detail artikel berdasarkan ID
 
-POST /article/<id> : Mengubah data artikel
+- POST /article/<id> : Mengubah data artikel
 
-POST /article/delete/<id> / DELETE /article/<id> : Memindahkan/menghapus artikel
+- POST /article/delete/<id> / DELETE /article/<id> : Memindahkan/menghapus artikel
 
 Validasi Data (Pydantic):
 
-title: Minimal 20 karakter
+- title: Minimal 20 karakter
 
-content: Minimal 200 karakter
+- content: Minimal 200 karakter
 
-category: Minimal 3 karakter
+- category: Minimal 3 karakter
 
-status: Harus memilih antara publish, draft, atau thrash
+- status: Harus memilih antara publish, draft, atau thrash
 
 2. Frontend Admin Dashboard
-All Posts Page: Memiliki tab Published, Drafts, dan Trashed dengan aksi Edit dan Trash.
+- All Posts Page: Memiliki tab Published, Drafts, dan Trashed dengan aksi Edit dan Trash.
 
-Add New Page: Formulir pembuatan artikel baru dengan tombol Publish dan Draft.
+- Add New Page: Formulir pembuatan artikel baru dengan tombol Publish dan Draft.
 
-Preview Blog Page: Menampilkan daftar artikel berkategori Publish dengan navigasi pagination.
+- Preview Blog Page: Menampilkan daftar artikel berkategori Publish dengan navigasi pagination.
